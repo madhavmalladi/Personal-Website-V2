@@ -398,3 +398,122 @@ body {
     padding-right: 0;
   }
 }
+
+.experienceSection {
+  padding-top: 2rem;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experienceType {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+  padding: 1rem 0;
+  width: 81vw;
+  max-width: 1260px;
+  margin: 10px auto;
+  background: linear-gradient(45deg, #ff4500, #ff6347, #ff7f50, #ff8c00);
+  -webkit-background-clip: text;
+  color: transparent;
+  transform: translateX(3%) translateY(60%);
+}
+
+.experienceContent {
+  margin: 2rem auto;
+  width: 81vw;
+  max-width: 1260px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  transform: translateX(8%);
+}
+
+.experienceBox {
+  display: flex;
+  background-color: rgba(26, 26, 26, 0.9);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  min-height: 400px;
+  height: auto;
+  transform: translateY(10%);
+}
+
+.experienceImage {
+  flex: 0 0 20%;
+  background-color: #fff;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experienceImage img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.experienceDetails {
+  flex: 0 0 80%;
+  padding: 2.5rem 3rem;
+  color: white;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.experienceTitle {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(45deg, #ff4500, #ff6347, #ff7f50, #ff8c00);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.experienceRole {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.experienceDuration {
+  font-size: 1.2rem;
+  color: #ffff;
+  margin-bottom: 2.5rem;
+  font-style: italic;
+}
+
+@media (max-width: 1024px) {
+  .experienceContent {
+    width: 95vw;
+    padding: 0 1rem;
+    transform: translateX(0);
+  }
+
+  .experienceBox {
+    flex-direction: column;
+  }
+  
+  .experienceImage {
+    flex: 0 0 200px;
+    padding: 1.5rem;
+  }
+
+  .experienceImage img {
+    max-height: 180px;
+  }
+  
+  .experienceDetails {
+    flex: 1;
+    padding: 2rem;
+  }
+}
