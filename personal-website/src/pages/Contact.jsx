@@ -1,6 +1,10 @@
+import ContactForm from '../components/ContactForm'
 
 export default function Contact(){
     return (
-        <h1 className = "Name">Contact</h1>
+        <div>
+            <h1 className="Name">Contact</h1>
+            <ContactForm />
+        </div>
     )
 }
