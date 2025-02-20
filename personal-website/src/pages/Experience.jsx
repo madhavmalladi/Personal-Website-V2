@@ -46,7 +46,7 @@ export default function Experience(){
                             <img src="/Personal-Website-V2/Polygence.png" alt="Polygence Research" />
                         </div>
                         <div className="experienceDetails">
-                            <h3 className="experienceTitle">Student Researcher</h3>
+                            <h3 className="experienceTitle">Machine Learning Researcher</h3>
                             <p className="experienceRole">Polygence</p>
                             <p className="experienceDuration">July 2023 - July 2024</p>
                             <div className="educationInfo">
