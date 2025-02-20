@@ -9,6 +9,7 @@ export default function ContactForm() {
     });
 
     const [status, setStatus] = useState('');
+    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzg4qRHqyQzY6ENsCqh-ERT2b7-31XXNp7j58yd_parj9fInhQ60yMu0wW-AiQV1skn/exec';
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -23,19 +24,16 @@ export default function ContactForm() {
         setStatus('sending');
 
         try {
-            const response = await fetch(
-                'https://script.google.com/macros/s/AKfycbzg4qRHqyQzY6ENsCqh-ERT2b7-31XXNp7j58yd_parj9fInhQ60yMu0wW-AiQV1skn/exec',
-                {
-                    method: 'POST',
-                    mode: 'no-cors',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        data: formData
-                    })
-                }
-            );
+            await fetch(SCRIPT_URL, {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    data: formData
+                })
+            });
 
             setStatus('success');
             setFormData({
@@ -44,9 +42,18 @@ export default function ContactForm() {
                 subject: '',
                 message: ''
             });
+
+            setTimeout(() => {
+                setStatus('');
+            }, 5000);
+
         } catch (error) {
             console.error('Error:', error);
             setStatus('error');
+            
+            setTimeout(() => {
+                setStatus('');
+            }, 5000);
         }
     };
 
@@ -110,7 +117,7 @@ export default function ContactForm() {
                     <p className="successMessage">Message sent successfully!</p>
                 )}
                 {status === 'error' && (
-                    <p className="errorMessage">Failed to send message. Please try again.</p>
+                    <p className="errorMessage">Failed to send message.</p>
                 )}
             </form>
         </div>
