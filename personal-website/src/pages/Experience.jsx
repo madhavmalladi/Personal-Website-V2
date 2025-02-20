@@ -7,7 +7,7 @@ export default function Experience(){
                 <div className="experienceContent">
                     <div className="experienceBox">
                         <div className="experienceImage">
-                            <img src="/FRC.png" alt="FIRST Robotics" />
+                            <img src="/Personal-Website-V2/FRC.png" alt="FIRST Robotics" />
                         </div>
                         <div className="experienceDetails">
                             <h3 className="experienceTitle">Lead Software Engineer and Team Technician</h3>
@@ -43,7 +43,7 @@ export default function Experience(){
                     </div>
                     <div className="experienceBox">
                         <div className="experienceImage">
-                            <img src="/Polygence.png" alt="Polygence Research" />
+                            <img src="/Personal-Website-V2/Polygence.png" alt="Polygence Research" />
                         </div>
                         <div className="experienceDetails">
                             <h3 className="experienceTitle">Student Researcher</h3>

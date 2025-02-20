@@ -7,7 +7,7 @@ export default function Education(){
                 <div className="educationContent">
                     <div className="educationBox">
                         <div className="schoolImage">
-                            <img src="/Rutgers.png" alt="Rutgers University" />
+                            <img src="/Personal-Website-V2/Rutgers.png" alt="Rutgers University" />
                         </div>
                         <div className="educationDetails">
                             <h3 className="schoolName">Rutgers University-New Brunswick</h3>
