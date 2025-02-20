@@ -24,7 +24,7 @@ export default function ContactForm() {
 
         try {
             const response = await fetch(
-                'YOUR_GOOGLE_SCRIPT_URL',
+                'https://script.google.com/macros/s/AKfycbzg4qRHqyQzY6ENsCqh-ERT2b7-31XXNp7j58yd_parj9fInhQ60yMu0wW-AiQV1skn/exec',
                 {
                     method: 'POST',
                     mode: 'no-cors',
