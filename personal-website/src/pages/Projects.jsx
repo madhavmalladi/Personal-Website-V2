@@ -12,13 +12,13 @@ export default function Projects() {
                         </div>
                         <div className="projectDetails">
                             <h3 className="projectTitle">Full-Stack Stock Prediction Application</h3>
-                            <p className="projectDuration">January 2025 - Present</p>
+                            <p className="projectDuration">February 2025 - Present</p>
                             <div className="projectInfo">
                                 <div className="description">
                                     <h4>Description</h4>
                                     <ul>
                                         <li>Creating a web application that predicts future stock prices for a user-selected company</li>
-                                        <li>Flask for the backend, PyTorch for machine learning, React.js for the frontend</li>
+                                        <li>Flask for the backend, TensorFlow for machine learning, React.js for the frontend</li>
                                         <li>Plan to host using AWS</li>
                                     </ul>
                                 </div>
@@ -28,7 +28,7 @@ export default function Projects() {
                                         <li>Python</li>
                                         <li>Flask</li>
                                         <li>Pandas</li>
-                                        <li>Machine Learning (PyTorch)</li>
+                                        <li>Machine Learning (TensorFlow)</li>
                                         <li>React.js</li>
                                     </ul>
                                 </div>
