@@ -20,7 +20,7 @@ export default function Education(){
                                         <li>Principles of Computer Science (Grade: A)</li>
                                         <li>Data Structures (Grade: A)</li>
                                         <li>Computer Architecture (in-progress)</li>
-                                        <li>Discrete Structures (in-progress)</li>
+                                        <li>Discrete Structures 1 (in-progress)</li>
                                     </ul>
                                 </div>
                                 <div className="activities">
