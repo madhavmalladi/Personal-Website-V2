@@ -75,7 +75,7 @@ export default function Projects() {
                         </div>
                         <div className="projectDetails">
                             <h3 className="projectTitle">ReLU Activation Function to Predict All-NBA Teams</h3>
-                            <p className="projectDuration">July 2023 - July 2024</p>
+                            <p className="projectDuration">July 2024</p>
                             <div className="projectInfo">
                                 <div className="description">
                                     <h4>Description</h4>
