@@ -11,7 +11,7 @@ export default function Education(){
                         </div>
                         <div className="educationDetails">
                             <h3 className="schoolName">Rutgers University-New Brunswick</h3>
-                            <p className="degreeType">Bachelor of Science (B.S.) in Computer Science and Data Science</p>
+                            <p className="degreeType">Bachelor of Science (B.S.) in Computer Science and Statistics</p>
                             <p className="expectedGraduation">Expected Graduation: May 2027 (Freshman with Sophomore standing)</p>
                             <div className="educationInfo">
                                 <div className="coursework">
