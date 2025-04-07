@@ -31,8 +31,8 @@ export default function Home(){
                 <p className="skillLabel">Pandas</p>
             </div>
             <div className="skillContainer">
-                <img src="/Personal-Website-V2/Flask.png" alt="Flask" className="Flask"/>
-                <p className="skillLabel">Flask</p>
+                <img src="/Personal-Website-V2/SpringBoot.png" alt="Spring Boot" className="SpringBoot"/>
+                <p className="skillLabel">Spring Boot</p>
             </div>
             <div className="skillContainer">
                 <img src="/Personal-Website-V2/PostgreSQL.png" alt="PostgreSQL" className="PostgreSQL"/>

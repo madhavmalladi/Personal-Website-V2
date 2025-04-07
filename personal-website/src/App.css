@@ -106,7 +106,7 @@ body {
   padding-left: 25px;
 }
 
-.Java, .Python, .Flask, .PostgreSQL, .Pandas, .React, .Tensorflow {
+.Java, .Python, .SpringBoot, .PostgreSQL, .Pandas, .React, .Tensorflow {
   width: 100px;
   height: 100px;
   background-color: #1a1a1a;
@@ -136,7 +136,7 @@ body {
 .skillContainer:nth-of-type(6) { left: 65%; }
 .skillContainer:nth-of-type(7) { left: 75%; }
 
-.Java:hover, .Python:hover, .Flask:hover, .PostgreSQL:hover, .Pandas:hover, .React:hover, .Tensorflow:hover {
+.Java:hover, .Python:hover, .SpringBoot:hover, .PostgreSQL:hover, .Pandas:hover, .React:hover, .Tensorflow:hover {
   transform: translateY(-10px);
   box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
 }

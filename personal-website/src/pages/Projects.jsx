@@ -8,33 +8,36 @@ export default function Projects() {
 
                     <div className="projectBox">
                         <div className="projectImage">
-                            <img src="/Personal-Website-V2/Stock.png" alt="Crypto Prediction" />
+                            <img src="/Personal-Website-V2/Hoop.png" alt="Crypto Prediction" />
                         </div>
                         <div className="projectDetails">
-                            <h3 className="projectTitle">Full-Stack Stock Prediction Application</h3>
-                            <p className="projectDuration">February 2025 - Present</p>
+                            <h3 className="projectTitle">MyHotZones Shot Tracker</h3>
+                            <p className="projectDuration">April 2025 - Present</p>
                             <div className="projectInfo">
                                 <div className="description">
                                     <h4>Description</h4>
                                     <ul>
-                                        <li>Creating a web application that predicts future stock prices for a user-selected company</li>
-                                        <li>Flask for the backend, TensorFlow for machine learning, React.js for the frontend</li>
-                                        <li>Plan to host using AWS</li>
+                                        <li>Building a full-stack basketball training platform that enables users to log shooting performance through an
+                                        interactive UI</li>
+                                        <li>Developing a custom Machine Learning model to identify shooting weaknesses</li>
+                                        <li>Will integrate Open AI API to provide personalized drill recommendations</li>
+                                        <li>Plan to deploy backend with AWS EC2 and frontend with Vercel</li>
                                     </ul>
                                 </div>
                                 <div className="skills">
                                     <h4>Skills/Tools</h4>
                                     <ul>
-                                        <li>Python</li>
-                                        <li>Flask</li>
-                                        <li>Pandas</li>
+                                        <li>Java</li>
+                                        <li>Spring Boot</li>
+                                        <li>Next.js (React)</li>
                                         <li>Machine Learning (TensorFlow)</li>
-                                        <li>React.js</li>
+                                        <li>PostgreSQL</li>
+                                        <li>AWS EC2</li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="projectLinks">
-                                <a href="https://github.com/madhavmalladi/Stock-Predictor" target="_blank" rel="noopener noreferrer">GitHub</a>
+                                <a href="https://github.com/madhavmalladi/MyHotZones-Shot-Tracker" target="_blank" rel="noopener noreferrer">GitHub</a>
                             </div>
                         </div>
                     </div>
