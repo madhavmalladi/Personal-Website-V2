@@ -44,6 +44,38 @@ export default function Projects() {
 
                     <div className="projectBox">
                         <div className="projectImage">
+                            <img src="/Personal-Website-V2/Stock.png" alt="Crypto Prediction" />
+                        </div>
+                        <div className="projectDetails">
+                            <h3 className="projectTitle">Full-Stack Stock Predictor</h3>
+                            <p className="projectDuration">February 2025 - April 2025</p>
+                            <div className="projectInfo">
+                                <div className="description">
+                                    <h4>Description</h4>
+                                    <ul>
+                                        <li>Created a web application that predicts future stock prices for a user-selected company</li>
+                                        <li>Trained a prediction model using Tensorflow and retrieved data using the YFinance API</li>
+                                        <li>Working on deployment of backend with AWS EC2 and frontend with Vercel</li>
+                                    </ul>
+                                </div>
+                                <div className="skills">
+                                    <h4>Skills/Tools</h4>
+                                    <ul>
+                                        <li>Flask</li>
+                                        <li>Python</li>
+                                        <li>React.js</li>
+                                        <li>Machine Learning (TensorFlow)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="projectLinks">
+                                <a href="https://github.com/madhavmalladi/Stock-Predictor" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="projectBox">
+                        <div className="projectImage">
                             <img src="/Personal-Website-V2/Music.png" alt="Music Wordle" />
                         </div>
                         <div className="projectDetails">
