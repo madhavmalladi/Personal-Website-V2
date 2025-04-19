@@ -14,7 +14,7 @@ export default function Home(){
             <p className="Name">Madhav Malladi</p>
             <img src="/Personal-Website-V2/Madhav.jpeg" alt="Profile" className="pfp"/>
             <p className="bio0">Hello!</p>
-            <p className="bio1">I am a Computer Science and Data Science student at Rutgers University-New Brunswick</p>
+            <p className="bio1">I am a Computer Science student at Rutgers University-New Brunswick</p>
             <p className="bio2">Looking to gain experience in back-end development, ML/AI, and data science/engineering</p>
 
             <p className="skillsHeader">Top Skills</p>
@@ -27,8 +27,8 @@ export default function Home(){
                 <p className="skillLabel">Python</p>
             </div>
             <div className="skillContainer">
-                <img src="/Personal-Website-V2/Pandas.png" alt="Pandas" className="Pandas"/>
-                <p className="skillLabel">Pandas</p>
+                <img src="/Personal-Website-V2/Flask.png" alt="Pandas" className="Pandas"/>
+                <p className="skillLabel">Flask</p>
             </div>
             <div className="skillContainer">
                 <img src="/Personal-Website-V2/SpringBoot.png" alt="Spring Boot" className="SpringBoot"/>

@@ -18,7 +18,7 @@ export default function Experience(){
                                     <h4>Description</h4>
                                     <ul>
                                         <li>Led a team of 7 software engineers</li>
-                                        <li>Coded my team's robot using Java object-oriented programming, utilizing numerous libraries including REV Robotics and Limelight cameras. Utilized machine learning algorithms for object detection and camera vision.</li>
+                                        <li>Coded my team's robot using Java object-oriented programming, utilizing numerous libraries including REV Robotics and Limelight cameras.</li>
                                         <li>In charge of making quick modifications to our code based on the team gameplan</li>
                                         <li>Managed the development of my team's code over a 3-month span</li>
                                         <li>Team Qualified for 2023 World Championships
@@ -55,7 +55,7 @@ export default function Experience(){
                                     <ul>
                                         <li>Completed a machine-learning and statistical analysis research project, researching relevant activation functions</li>
                                         <li>Coded a machine-learning model to predict whether or not a player made the All-NBA team in a given season</li>
-                                        <li>98.94% test accuracy</li>
+                                        <li>{">"} 90% test accuracy</li>
                                     </ul>
                                 </div>
                                 <div className="activities">
