@@ -117,7 +117,7 @@ export default function Projects() {
                                     <ul>
                                         <li>Coded a ReLU activation function to predict whether or not a player made the All-NBA team in a given season</li>
                                         <li>Utilized an NBA API to gather data from every player in that season</li>
-                                        <li>Achieved 98.94% Test Accuracy</li>
+                                        <li>Achieved {'>'} 90% Test Accuracy</li>
                                     </ul>
                                 </div>
                                 <div className="skills">
